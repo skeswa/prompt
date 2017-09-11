@@ -4,7 +4,7 @@ A fast, simple [bash][bash] prompt.
 
 ![prompt screenshot][screenshot]
 
-[screenshot]: screenshot.png
+[screenshot]: screenshot.gif
 
 Inspired by [sexy-bash-prompt][sexy-bash-prompt].
 
@@ -12,7 +12,7 @@ Inspired by [sexy-bash-prompt][sexy-bash-prompt].
 
 ## Installation
 ```bash
-$ cd $TO_WHERE_YOU_KEEP_GITHUB_REPOS
+$ cd $WHERE_YOU_KEEP_GITHUB_REPOS
 $ git clone https://github.com/skeswa/prompt
 $ cd prompt
 $ make install
