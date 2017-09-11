@@ -15,7 +15,7 @@ $ make install
 $ . ~/.bashrc
 ```
 
-## Assumptions
+## Features
 - Path shortening (`~/some/really/long/path/like/this/you/might/see` → `~/some/really/l/p/l/t/y/might/see`)
 - Basic git branch or ref information
 - Relatively good performance (we try to limit sub-shells as much as possible)
