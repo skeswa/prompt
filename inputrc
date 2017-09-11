@@ -1,0 +1,20 @@
+# This file comes from 'skeswa/prompt'.
+
+# This file controls the behaviour of line input editing for
+# programs that use the Gnu Readline library.
+
+# Makes tab completion more pleasant.
+set show-all-if-ambiguous on
+set completion-ignore-case on
+
+# Arrow keys in keypad mode.
+"\C-[OA": history-search-backward
+"\C-[OB": history-search-forward
+"\C-[OC": forward-char
+"\C-[OD": backward-char
+
+# Arrow keys in ANSI mode
+"\C-[[A": history-search-backward
+"\C-[[B": history-search-forward
+"\C-[[C": forward-char
+"\C-[[D": backward-char
