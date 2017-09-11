@@ -6,10 +6,6 @@ A fast, simple [bash][bash] prompt.
 
 [screenshot]: screenshot.gif
 
-Inspired by [sexy-bash-prompt][sexy-bash-prompt].
-
-[sexy-bash-prompt]: https://github.com/twolfson/sexy-bash-prompt
-
 ## Installation
 ```bash
 $ cd $WHERE_YOU_KEEP_GITHUB_REPOS
