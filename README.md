@@ -59,9 +59,9 @@ export PROMPT_HOST_NAME='inthehouse'
 [ps-vars]: http://www.gnu.org/software/bash/manual/bashref.html#index-PS1
 
 ## Support
-Linux and Mac OSX are supported platforms.
-
-Windows is supported to the best of my abilities. However, there have been [font issues][putty-issue] with using [PuTTY][].
+Linux and Mac OSX are supported platforms.\
+\
+Try on Windows at your own peril.
 
 [PuTTY]: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 [putty-issue]: https://github.com/twolfson/sexy-bash-prompt/issues/7
