@@ -15,7 +15,14 @@ $ make install
 $ . ~/.bashrc
 ```
 
-### Assumptions
+## Assumptions
+- Path shortening (`~/some/really/long/path/like/this/you/might/see` → `~/some/really/l/p/l/t/y/might/see`)
+- Basic git branch or ref information
+- Relatively good performance (we try to limit sub-shells as much as possible)
+- Customizable colors
+- Good documentation (lotsa comments - just in case you want to tweak something)
+
+## Assumptions
 - We assume that you have `bash` installed at version `3.0.0` or higher
 - We assume that you have `git` installed at version `2.0.0` or higher
 - We assume that your terminal supports 256 colors
