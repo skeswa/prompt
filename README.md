@@ -21,6 +21,9 @@ $ . ~/.bashrc
 - Relatively good performance (we try to limit sub-shells as much as possible)
 - Customizable colors
 - Good documentation (lotsa comments - just in case you want to tweak something)
+- Git tab-completion
+- Autocomplete command history with arrow keys
+- Makes bash feel a little more modern
 
 ## Assumptions
 - We assume that you have `bash` installed at version `3.0.0` or higher
