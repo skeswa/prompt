@@ -58,6 +58,12 @@ function __prompt_get_short_pwd {
     local last_index="$(( $number_of_parts - 3 ))"
     local short_pwd=""
 
+    # Check for a leading slash.
+    if [[ "${dir:0:1}" == "/" ]]; then
+      # If there is a leading slash, add one to `short_pwd`.
+      short_pwd+='/'
+    fi
+
     for i in "${!dir_parts[@]}"; do
       # Append a '/' before we do anything (provided this isn't the first part).
       if [[ "$i" -gt "0" ]]; then
@@ -65,7 +71,7 @@ function __prompt_get_short_pwd {
       fi
 
       # Don't shorten the first/last few arguments - leave them as-is.
-      if [[ "$i" -lt "3" ]] || [[ "$i" -gt "$last_index" ]]; then
+      if [[ "$i" -lt "3" || "$i" -gt "$last_index" ]]; then
         short_pwd+="${dir_parts[i]}"
       else
         # This means that this path part is in the middle of the path. Our logic
