@@ -71,7 +71,7 @@ function __prompt_get_short_pwd {
       fi
 
       # Don't shorten the first/last few arguments - leave them as-is.
-      if [[ "$i" -lt "3" || "$i" -gt "$last_index" ]]; then
+      if [[ "$i" -lt "2" || "$i" -gt "$last_index" ]]; then
         short_pwd+="${dir_parts[i]}"
       else
         # This means that this path part is in the middle of the path. Our logic
